@@ -1,5 +1,7 @@
 import logging
+import sys
 import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),"../.."))) # to solve src import problem
 from logging.handlers import RotatingFileHandler
 from from_root import from_root
 from datetime import datetime

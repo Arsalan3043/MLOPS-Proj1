@@ -2,7 +2,7 @@ import os
 import sys
 import pymongo
 import certifi
-
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),"../.."))) # to solve src import problem
 from src.exception import MyException
 from src.logger import logging
 from src.constants import DATABASE_NAME, MONGODB_URL_KEY

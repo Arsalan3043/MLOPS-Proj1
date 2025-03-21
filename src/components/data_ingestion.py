@@ -1,6 +1,6 @@
 import os
 import sys
-
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),"../.."))) # to solve src import problem
 from pandas import DataFrame
 from sklearn.model_selection import train_test_split
 

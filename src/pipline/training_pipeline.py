@@ -1,4 +1,6 @@
 import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),"../.."))) # to solve src import problem
 from src.exception import MyException
 from src.logger import logging
 

@@ -1,4 +1,4 @@
-#!C:\Users\wer\Desktop\MLOPS\MLOPS-Proj1\vehicle\Scripts\python.exe
+#!C:\Users\LENOVO\Desktop\Arsalan\MLOPS-Proj1\vehicle\Scripts\python.exe
 
 import sys
 import json
